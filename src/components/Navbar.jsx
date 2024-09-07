@@ -46,7 +46,7 @@ const Navbar = () => {
             alt="name logo"
             className="w-8 h-8 object-contain mb-5"
           />
-          <div className="text-white text-[16] font-bold cursor-pointer flex mb-5">
+          <div className="text-white text-[16px] font-bold cursor-pointer flex mb-5">
             &nbsp; Ammar &nbsp;
           </div>
 
@@ -54,8 +54,8 @@ const Navbar = () => {
             <div className="w-0.5 sm:h-14 h-14 bg-gradient-to-b from-red-500 to-yellow-500" />
           </div>
 
-          <div className="text-white text-[16] font-bold cursor-pointer flex mt-8 ">
-            &nbsp; Web Developer &nbsp;
+          <div className="text-white text-[16px] font-bold cursor-pointer flex mt-8 ml-1">
+            &nbsp; Web Dev &nbsp;
           </div>
           <img
             src="/laptop-logo.png"
@@ -64,7 +64,7 @@ const Navbar = () => {
           />
         </Link>
 
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        <ul className="list-none hidden md:flex flex-row gap-6 md:gap-5"> 
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -72,7 +72,7 @@ const Navbar = () => {
                 active === nav.title
                   ? "text-white bg-black-200"
                   : "text-secondary bg-black-100"
-              } focus-within:text-white focus-within:bg-black-200 hover:text-white hover:bg-black-200 bg-black-100 text-[16px] font-medium cursor-pointer p-2 rounded-[5px]`}
+              } focus-within:text-white focus-within:bg-black-200 hover:text-white hover:bg-black-200 bg-black-100 text-[14px] font-medium cursor-pointer p-2 rounded-[5px]`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
@@ -80,7 +80,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="md:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
             alt="menu"

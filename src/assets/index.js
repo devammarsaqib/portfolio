@@ -6,6 +6,8 @@ import github from "./github.png";
 import menu from "./menu.png";
 import close from "./close.svg";
 
+import bgmobile from "./bgmobile.jpg";
+
 import freelancer from "./company/freelancer.png";
 import upwork from "./company/upwork.png";
 
@@ -34,6 +36,7 @@ export {
   freelancer,
   upwork,
   github,
+  bgmobile,
   menu,
   close,
   css,
