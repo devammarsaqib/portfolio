@@ -4,7 +4,7 @@ import backend from "./services/backend.png";
 import contentcreator from "./services/contentcreator.png";
 import github from "./github.png";
 import menu from "./menu.png";
-import close from "./close.svg";
+import close from "./close.png";
 
 import bgmobile from "./bgmobile.jpg";
 
