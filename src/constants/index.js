@@ -283,7 +283,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "E-commerce App",
+    name: "E-Commerce App",
     description:
       "An E-commerce app, that allows users to purchase, add to cart and review the products online. Moderators and admins can add, edit and delete products.",
     tags: [
